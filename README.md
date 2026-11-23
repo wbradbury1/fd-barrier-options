@@ -4,7 +4,7 @@
 
 This is a down-and-out barrier call pricer built on a log-transformed Black–Scholes PDE (using a Crank–Nicolson scheme with Rannacher start-up smoothing).
 
-This project implements the numerical methods I analysed in [`essay.pdf`](./essay.pdf) where I compared Forward Euler, Backward Euler, Crank–Nicolson and Rannacher smoothing schemes for the barrier option PDE. This includes convergence behaviour, positivity/monotonicity, and start-up oscillation behaviour near the payoff kink. The essay is the theory; this repo will be the from-scratch C++ implementation of the schemes and the experiments that go with it, plus a few extensions beyond the essay such as a delta-hedging simulation, a near-barrier breakdown, and a wrong-vol P&L check (see roadmap below).
+This project implements the numerical methods I analysed in [`essay.pdf`](./essay.pdf) where I compared Forward Euler, Backward Euler, Crank–Nicolson and Rannacher smoothing schemes for the barrier option PDE. This includes convergence behaviour, positivity/monotonicity, and start-up oscillation behaviour near the payoff kink. The essay is the theory, and its experiments were run in Python — every plot in it comes from those runs; this repo will be the from-scratch C++ implementation of the schemes and the experiments that go with it, plus a few extensions beyond the essay such as a delta-hedging simulation, a near-barrier breakdown, and a wrong-vol P&L check (see roadmap below).
 
 ## Build and requirements
 
